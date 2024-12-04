@@ -92,7 +92,7 @@ cron.schedule('* * * * *', () => {
     console.log('Order statuses updated:', orders);
 });
 // Start the server
-const PORT = process.env.PORT || 3001;  // Change to 3001 or another port
+const PORT = process.env.PORT || 3000;  // Change to 3001 or another port
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
